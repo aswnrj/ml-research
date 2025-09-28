@@ -36,20 +36,14 @@ Probability = Area\
 Probability of a single point = 0
 
 ### Lecture 2 - Conditioning and Bayes Theorem
-- Probability of A occuring given that B has occured
-$$
-P(A|B) = \frac{P(A\cap B)}{P(B)}
-$$
+- Probability of A occuring given that B has occured\
+$$P(A|B) = \frac{P(A\cap B)}{P(B)}$$
 - Intuitive way to think about it is that the probability of B will become 1, but the probabilities of partitions in B will remain the same
 - Conditional probability follows all the properties of normal probability
-- If the sample space is divided into a set of events $A_i$ and we have data about how likely if another event $B$ going to occur if each of events $A_i$ occurs, we can use this data to find the total probability of event $B$ occuring. 
-$$
-P(B) = \sum_{i} P(A_i)\cdot P(B|A_i) 
-$$
-- This can also be used to find the inference probability to understand if $B$ has occured, what are the probabilities of it being due to each $A_i$
-$$
-P(A_i|B) = \frac{P(A_i)\cdot P(B|A_i)}{\sum_{j} P(A_j)\cdot P(B|A_j)}
-$$
+- If the sample space is divided into a set of events $A_i$ and we have data about how likely if another event $B$ going to occur if each of events $A_i$ occurs, we can use this data to find the total probability of event $B$ occuring.\
+$$P(B) = \sum_{i} P(A_i)\cdot P(B|A_i)$$
+- This can also be used to find the inference probability to understand if $B$ has occured, what are the probabilities of it being due to each $A_i$\
+$$P(A_i|B) = \frac{P(A_i)\cdot P(B|A_i)}{\sum_{j} P(A_j)\cdot P(B|A_j)}$$
 
 ## Linear Algebra
 ### Lecture 3 - Multiplication and Inverse Matrices
@@ -60,10 +54,8 @@ $$
 - Rows of $C$ are linear combinations of rows of $B$ weighted by rows of $A$
 - $C$ is sum of columns of $A$ multipled by rows of $B$
 - A matrix is singular or non-invertible if there exists a non-zero $X$ where $A \cdot X = 0$
-- Guass - Jordan method of finding inverse
-$$
-E [A\ I] = [I\ A^{-1}]
-$$
+- Guass - Jordan method of finding inverse\
+$$E [A\ I] = [I\ A^{-1}]$$
 
 ### Lexture 4 - Factorization of $A = LU$
 - We can form U by doing some operations on $A$ using $E$ keeping pivot constant and converting other elements to $0$
