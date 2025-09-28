@@ -29,7 +29,8 @@ My ML/Deep Learning journey – notes + experiments
     - Additivity
 - The probability of a set of outcomes happening in a countably finite set is the sum of probabilities of each outcome
 - **Discrete uniform law**: \
-If all outcomes are equally likely, the probability $$P(A) = \frac{number\ of\ elements\ in\ A}{total\ number\ of\ elements\ in\ the\ sample\ space}$$
+If all outcomes are equally likely, the probability\
+$$P(A) = \frac{number\ of\ elements\ in\ A}{total\ number\ of\ elements\ in\ the\ sample\ space}$$
 - **Continuous uniform law**:\
 Probability = Area\
 Probability of a single point = 0
