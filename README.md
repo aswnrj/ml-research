@@ -64,3 +64,15 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - The number of operations required to convert a $n \times n$ matrix $A$ into $U$ is of the order $\frac{n^3}{3}$
 - The permutations matrices form a set of matrices where multiplication and inverses of those lie in the same set
 - The number of matrices in this set for $n=3$ is $6$. Here $P^{-1} = P^{T}$
+
+### Lecture 5 - Transposes, Permutations and $R^n$ spaces
+- If we include rearranging rows also to get pivots, the equation becomes $P\cdot A = L\cdot U$
+- $n \times n$ matrices have $n!$ permuations matrices
+- $P^{T}\cdot P = I$ 
+- For any matrix, $R^{T}R$ is a symmetric matrix
+- Vector spaces are a set of vectors where all linear combinations of these vectors lie in the same vector space. 
+- Subspaces of $\mathbb{R}^{2}$ are
+    - Whole of $\mathbb{R}^{2}$
+    - A line passing through $ \begin{bmatrix} 0 \\ 0 \end{bmatrix}$
+    - Only the point $(0, 0)$
+- The column space of A, $C(A)$ is the subspace of $\mathbb{R^m}$ formed by the linear combinations of all the columns of $A$
