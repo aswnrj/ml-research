@@ -76,3 +76,10 @@ $$E [A\ I] = [I\ A^{-1}]$$
     - A line passing through $ \begin{bmatrix} 0 \\ 0 \end{bmatrix}$
     - Only the point $(0, 0)$
 - The column space of A, $C(A)$ is the subspace of $\mathbb{R^m}$ formed by the linear combinations of all the columns of $A$
+
+### Lecture 6 - Column spaces and Null spaces
+- Column spaces are all the linear combinations of the columns of $A$
+- A nullspace contains all the solutions for $A\cdot x = 0$
+- Consider a $4\times 3$ matrix, the column space will be a subspace of $\mathbb{R}^4$ and the nullspace will be a subspace of $\mathbb{R}^3$
+- Both column spaces and null spaces are valid vector spaces and satisfy all the properties of these
+- The solutions of $A\cdot x = b$ does not form a subspace
