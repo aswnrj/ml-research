@@ -83,3 +83,12 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - Consider a $4\times 3$ matrix, the column space will be a subspace of $\mathbb{R}^4$ and the nullspace will be a subspace of $\mathbb{R}^3$
 - Both column spaces and null spaces are valid vector spaces and satisfy all the properties of these
 - The solutions of $A\cdot x = b$ does not form a subspace
+
+## Probability
+### Lecture 3 -  Independence
+- Two events are independent if the occurence of one events does not provide any information about the occurence of the other
+- $P(A | B) = P(A)$
+- $P(A \cap B) = P(A) \cdot P(B)$
+- Same way for multiple independent events. They are also mututally independent
+- But if some events are mutually independent, that does not imply total independence
+- Interesting problem about the king's sibling
