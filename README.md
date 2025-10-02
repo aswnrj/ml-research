@@ -92,3 +92,14 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - Same way for multiple independent events. They are also mututally independent
 - But if some events are mutually independent, that does not imply total independence
 - Interesting problem about the king's sibling
+
+## Linear Algebra 
+### Lecture 7
+- Rank is the number of pivots after converting $A$ to $U$
+- After conversions, we can call them free columns and pivot columns
+- Substitute $1$ and $0$ for the free variables and find the values of pivot variables
+- The nullspace will be a linear combination of these solutions
+- We can write these solutions to form a matrix whose column space will be the nullspace
+- We can also see that we can divide the RREF form of the matrix into $I$ and $F$ where $F$ is the free column matrix
+- $N$ will be of the form $ \begin{bmatrix} -F \\ I \end{bmatrix} $
+- Rank($A$) = Rank($A^T$) 
