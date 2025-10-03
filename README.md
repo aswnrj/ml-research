@@ -103,3 +103,9 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - We can also see that we can divide the RREF form of the matrix into $I$ and $F$ where $F$ is the free column matrix
 - $N$ will be of the form $ \begin{bmatrix} -F \\ I \end{bmatrix} $
 - Rank($A$) = Rank($A^T$) 
+
+## Probability
+### Lecture 4 - Counting
+- Learnt about ways to choose k from n elements and about permutations of them
+- Solved a few problems
+- If $n$ is partitioned into $n_1, n_2 \cdots n_k$, the ways of partitioning them is $$ \frac{n!}{n_1! \cdot n_2! \cdots n_k!} $$
