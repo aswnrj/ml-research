@@ -94,7 +94,7 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - Interesting problem about the king's sibling
 
 ## Linear Algebra 
-### Lecture 7
+### Lecture 7 - Nullspace
 - Rank is the number of pivots after converting $A$ to $U$
 - After conversions, we can call them free columns and pivot columns
 - Substitute $1$ and $0$ for the free variables and find the values of pivot variables
@@ -109,3 +109,42 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - Learnt about ways to choose k from n elements and about permutations of them
 - Solved a few problems
 - If $n$ is partitioned into $n_1, n_2 \cdots n_k$, the ways of partitioning them is $$ \frac{n!}{n_1! \cdot n_2! \cdots n_k!} $$
+
+## Linear Algebra
+### Lecture 8 - Solving $Ax = b$
+- Rank tells a lot about the solutions of a matrix
+- 4 types
+    - $r = m = n$
+        - Invertible matrix
+        - 1 unique solution
+    - $r = n < m$
+        - Either 0 or 1 solutions depending on $b$ lies in the column space
+    - $r = m < n$
+        - $\infty$ solutions
+    - $r < m$, $r < n$
+        - Either $0$ or $\infty$ solutions
+- $X_{full}$ = $X_{practical}$ + $X_{nullspace}$
+
+### Lecture 9 - Independence, Basis and Dimension
+- $v_1, v_2, \cdots , v_n$ are independent if $c_1v_1+c_2v_2+\cdots +c_nv_n \neq 0$ where $C \neq 0$
+- A set of vectors contains a zero vector can never be independent
+- A set of vectors span a space if the space can be written as a linear combination of these vectors
+- A basis for a space is a set of independent vectors which span the space
+- Basis is not unique, but a basis always consists of same number of vectors. This number is called the dimension of the space
+- Take column space of $A$, the column vectors span the space. The dimensionality of the column space of $A$ is equal to the rank of $A$.
+- The dimensionality of nullspace of $A$ is $n - rank(A)$ which is also equal to the number of free columns. 
+
+## Probability
+### Lecture 5 - Discrete Random Variables, PMF and Expectations 
+- A random variable is an assignment of a number to every possible outcome
+- Mathematically it is a function from sample space to real numbers 
+- PMF $p_{X}(x) = P(X=x)$
+- Binomial PMF $X$: number of heads in $n$ independent coin tosses
+$$ p_{X}(k) = \binom{n}{k}p^k(1-p)^{n-k} $$
+- Expected value $E[X] = \sum_x x \cdot p_X(x)$
+- Expected value of X is like a weighted average of the distribution
+- If $Y = g(X)$,$$E[Y] = \sum_y y \cdot p_Y(y) = \sum_x g(x) p_X(x)$$
+- $E[\alpha X+ \beta] = \alpha E[X] + \beta$
+- $ var(X) = E[(X - E[X])^2] = E[X^2] - E[X]^2$
+- $var(\alpha X + \beta) = \alpha^2 var(x)$
+
