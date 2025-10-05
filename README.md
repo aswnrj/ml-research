@@ -134,6 +134,40 @@ $$E [A\ I] = [I\ A^{-1}]$$
 - Take column space of $A$, the column vectors span the space. The dimensionality of the column space of $A$ is equal to the rank of $A$.
 - The dimensionality of nullspace of $A$ is $n - rank(A)$ which is also equal to the number of free columns. 
 
+### Lecture 10 - The four fundamental subspaces
+- Consider a $m \times n$ dimensional matrix
+- Column space
+    - dimension = $r$
+    - exists in $\mathbb{R}^m$
+    - basis vectors are pivot columns
+- Row space 
+    - dimension = $r$
+    - exists in $\mathbb{R}^n$
+    - basis vectors can be found by taking RREF of $A$ and the pivot rows are basis
+- Nullspace
+    - dimension = $n-r$
+    - exists in $\mathbb{R}^n$
+    - basis vectors can be found by substituting free variables and solving
+- Left nullspace
+    - dimension = $m-r$
+    - exists in $\mathbb{R}^m$
+    - basis vectors can be found by taking RREF of $A$ and using E. The rows of E where RREF is 0 are the basis
+
+### Lecture 11 - Matrix spaces, rank 1 matrices, small world graphs
+- Consider M as a matrix space of all $3\times 3$ matrices
+- Subspaces of this matrix space are:
+    - Symmertric matrices $S$
+        - dimension = 6
+    - Upper triangular matrices $U$
+        - dimension = 6
+    - Diagonal matrices $D=S\cap U$
+        - dimension = 3
+    - $ S+U$
+        - dimension = 9
+        - Can make up all $3\times 3$ matrices
+- Rank 1 matrix has only 1 pivot row and 1 pivot column and can be represented as a product of these
+
+
 ## Probability
 ### Lecture 5 - Discrete Random Variables, PMF and Expectations 
 - A random variable is an assignment of a number to every possible outcome
@@ -148,3 +182,16 @@ $$ p_{X}(k) = \binom{n}{k}p^k(1-p)^{n-k} $$
 - $ var(X) = E[(X - E[X])^2] = E[X^2] - E[X]^2$
 - $var(\alpha X + \beta) = \alpha^2 var(x)$
 
+### Lecture 6 - Discrete random variables examples, joint PMFs
+- We use standard deviation to get an accurate measure of the deviation, as variance will square the units. $\sigma_X = \sqrt{var(X)}$
+- Examples using speed and time $E[VT] \neq E[V]\cdot E[T]$
+- Conditional PMFs also behave the same way as conditional probabilities
+- Important relation is $E[X-2 | X>2] = E[X]$. Intuition is that if first two tosses are tails, still the expected number of tosses for the first head, given that first two tosses weren't heads, will be the same
+- This property is called the **Memory less property**
+- Total probability also works the same way for PMFs
+- Interesting derivation of $E[X] = 1/p$ for X: first toss until a head random variable
+- Joint PMFs are basically the probability distribution where two random variables occur together.
+$$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
+- Many properties apply for these
+    - $\sum_x \sum_y p_{X, Y}(x, y) = 1$
+    - $p_{X|Y}(x|y) = \frac{p_{X, Y}(x, y)}{p_Y(y)}$
