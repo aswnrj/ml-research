@@ -195,3 +195,10 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 - Many properties apply for these
     - $\sum_x \sum_y p_{X, Y}(x, y) = 1$
     - $p_{X|Y}(x|y) = \frac{p_{X, Y}(x, y)}{p_Y(y)}$
+
+### Lecture 7 - Multiple discrete random variables
+- Random variables are independent if $p_{X, Y, Z}(x, y, z) = p_x(x)\cdot p_y(y) \cdot p_z(z)$
+- If X and Y are independent
+    - $E[XY] = E[X]\cdot E[Y]$
+    - $Var(X+Y) = Var(X) + Var(Y)$
+- How to solve expected values for the number of heads in n tosses problem and the hat problem
