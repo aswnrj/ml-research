@@ -202,3 +202,13 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
     - $E[XY] = E[X]\cdot E[Y]$
     - $Var(X+Y) = Var(X) + Var(Y)$
 - How to solve expected values for the number of heads in n tosses problem and the hat problem
+
+## Linear Algebra
+### Lecture 8 - Graphs, networks, incidence matrix
+- For a given graph, incidence matrix consists of $\#nodes$ columns and $\#edges$ rows.
+- If we consider this as an electric circuit, the potential differences at nodes can be found out using the nullspace matrix.
+- The solutions to $A^Ty = 0$ will give current equations 
+- Kirchoff's law equations can be derived using the transpose of incidence matrix
+- The rank of the matrix is $\#nodes - 1$, number of vectors in nullspace of $A$ is 1. As we can set potential at one node and derive the others. 
+- The number of vectors in the left null space of $A^T$ is equal to the number of loops. Hence we can derive the kirchoff's using this
+   
