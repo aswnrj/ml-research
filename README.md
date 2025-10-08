@@ -211,4 +211,6 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 - Kirchoff's law equations can be derived using the transpose of incidence matrix
 - The rank of the matrix is $\#nodes - 1$, number of vectors in nullspace of $A$ is 1. As we can set potential at one node and derive the others. 
 - The number of vectors in the left null space of $A^T$ is equal to the number of loops. Hence we can derive the kirchoff's using this
-   
+
+### Review for quiz 1
+- Went through a few questions   
