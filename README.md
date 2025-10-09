@@ -203,6 +203,13 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
     - $Var(X+Y) = Var(X) + Var(Y)$
 - How to solve expected values for the number of heads in n tosses problem and the hat problem
 
+### Lecture - 8
+- Continuous random variables
+- How continuous random variables show a PDF and area under the graph will be the probability of that event happening
+- The probability of each point is zero
+- Gaussian distribution is the distribution with a bell curve with mean 0 and variance 1
+- The CDF of gaussian distribution is difficult to calculate and can only be found using the table 
+
 ## Linear Algebra
 ### Lecture 8 - Graphs, networks, incidence matrix
 - For a given graph, incidence matrix consists of $\#nodes$ columns and $\#edges$ rows.
