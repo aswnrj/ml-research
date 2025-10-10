@@ -221,3 +221,4 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 
 ### Review for quiz 1
 - Went through a few questions   
+- Solve more questions for quiz 1
