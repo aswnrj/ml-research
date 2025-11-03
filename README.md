@@ -221,5 +221,7 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 
 ### Review for quiz 1
 - Went through a few questions   
-- Solve more questions for quiz 1#   R e s N e t  
- 
+- Solve more questions for quiz 1
+
+## Recurrent Neural networks
+- Watched Youtube videos to learn about RNNs.
