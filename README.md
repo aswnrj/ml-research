@@ -225,3 +225,4 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 
 ## Recurrent Neural networks
 - Watched Youtube videos to learn about RNNs.
+- Learnt more about LSTM networks watching youtube videos 
