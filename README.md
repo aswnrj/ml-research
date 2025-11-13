@@ -223,6 +223,10 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 - Went through a few questions   
 - Solve more questions for quiz 1
 
-## Recurrent Neural networks
+### Recurrent Neural networks
 - Watched Youtube videos to learn about RNNs.
 - Learnt more about LSTM networks watching youtube videos 
+
+## Udemy deep learning course
+### RNNs
+- $$ h_t = tanh(W_{ih}x_t + W_{hh}h_{t-1}) $$
