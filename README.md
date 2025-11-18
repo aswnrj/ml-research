@@ -230,3 +230,6 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 ## Udemy deep learning course
 ### RNNs
 - $$ h_t = tanh(W_{ih}x_t + W_{hh}h_{t-1}) $$
+
+## Transformers
+- Transformers have an infinite window to refernce unlike RNNs and LSTMs. This is achieved using attention mechanism
