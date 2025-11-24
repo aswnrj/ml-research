@@ -212,11 +212,11 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 
 ## Linear Algebra
 ### Lecture 8 - Graphs, networks, incidence matrix
-- For a given graph, incidence matrix consists of $\#nodes$ columns and $\#edges$ rows.
+- For a given graph, incidence matrix consists of $nodes$ columns and $edges$ rows.
 - If we consider this as an electric circuit, the potential differences at nodes can be found out using the nullspace matrix.
 - The solutions to $A^Ty = 0$ will give current equations 
 - Kirchoff's law equations can be derived using the transpose of incidence matrix
-- The rank of the matrix is $\#nodes - 1$, number of vectors in nullspace of $A$ is 1. As we can set potential at one node and derive the others. 
+- The rank of the matrix is $nodes - 1$, number of vectors in nullspace of $A$ is 1. As we can set potential at one node and derive the others. 
 - The number of vectors in the left null space of $A^T$ is equal to the number of loops. Hence we can derive the kirchoff's using this
 
 ### Review for quiz 1
@@ -229,7 +229,7 @@ $$ p_{X, Y}(x, y) = P(X=x \ and \  Y=y) $$
 
 ## Udemy deep learning course
 ### RNNs
-- $$ h_t = tanh(W_{ih}x_t + W_{hh}h_{t-1}) $$
+- $h_t = tanh(W_{ih}x_t + W_{hh}h_{t-1})$
 
 ## Transformers
 - Transformers have an infinite window to refernce unlike RNNs and LSTMs. This is achieved using attention mechanism
